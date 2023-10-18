@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/BMW1.png);
+    background-position: center;
+    background-size: cover;
+    padding: 20px 100px;
+    transition: background-image 0.5s;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav img {
+    width: 150px;
+}
+
+nav a {
+    background-color: rgb(42, 42, 42);
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 25px;
+    border-radius: 25px;
+}
+
+.content {
+    width: 420px;
+    margin-top: 8%;
+    margin-bottom: 4%;
+
+}
+
+.container h4 {
+    color: #D9322E;
+    font-size: 24px;
+}
+
+.container h1 {
+    font-size: 60px;
+    line-height: 65px;
+}
+
+.choose_color {
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#black {
+    background-color: black;
+}

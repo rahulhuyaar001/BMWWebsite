@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container" id="bike">
+        <nav>
+            <img src="images/logo.png">
+            <a href="#">Book Ride</a>
+        </nav>
+
+        <div class="content">
+            <h4>THE BMW</h4>
+            <h1>G 310 R</h1>
+            <p>The strenth of the G 310 R is in its lightness and agility. The Bike not only delivers fun in the big-
+                city tumult. but also when you are redefining the city limits when changing corners quickly.</p>
+        </div>
+        <h2>Choose your colour</h2>
+        <div class="choose_color">
+            <div class="circle" id="red" onclick="red()"></div>
+            <div class="circle" id="blue" onclick="blue()"></div>
+            <div class="circle" id="black" onclick="black()"></div>
+        </div>
+    </div>
+    <script>
+        var bike = document.getElementById("bike");
+        function red() {
+            bike.style.backgroundImage = "url(images/BMW1.png)";
+        }
+        function blue() {
+            bike.style.backgroundImage = "url(images/BMW2.png)";
+        }
+        function black() {
+            bike.style.backgroundImage = "url(images/BMW3.png)";
+        }
+
+    </script>
+
+</body>
+
+</html>
